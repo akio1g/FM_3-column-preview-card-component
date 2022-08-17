@@ -22,17 +22,44 @@ body {
                 font-size: 45px;
             }
 
+            p {
+                font-size: 20px;
+                width: 80%;
+            }
+
+            button:hover {
+                border: solid 2px $veryLightGray;
+                cursor: pointer;
+            }
+
 
         }
 
         #sedan {
             border-top-right-radius: 0px;
             border-bottom-left-radius: 5px;
+
+            button:hover {
+                background-color: $brightOrange;
+                color: $veryLightGray;
+            }
+        }
+
+        #suvs {
+            button:hover {
+                background-color: $darkCyan;
+                color: $veryLightGray;
+            }
         }
 
         #luxury {
             border-bottom-left-radius: 0px;
             border-top-right-radius: 5px;
+
+            button:hover {
+                background-color: $veryDarkCyan;
+                color: $veryLightGray;
+            }
         }
     }
 
