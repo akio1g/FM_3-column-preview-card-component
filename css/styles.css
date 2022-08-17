@@ -1,0 +1,83 @@
+* {
+  padding: 0;
+  margin: 0;
+  vertical-align: baseline;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400;
+  font-size: 15px; }
+
+/*  
+    Family: Big Shoulders Display
+    Weights: 700 
+*/
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  body main {
+    display: flex;
+    flex-direction: column;
+    margin: 15% 5%; }
+    body main section {
+      display: flex;
+      flex-direction: column;
+      padding: 45px; }
+      body main section h1, body main section p, body main section button {
+        margin-top: 30px; }
+      body main section img {
+        width: 60px; }
+      body main section h1 {
+        font-family: 'Big Shoulders Display';
+        text-transform: uppercase;
+        font-size: 40px;
+        color: #f2f2f2; }
+      body main section p {
+        line-height: 150%;
+        color: rgba(255, 255, 255, 0.75); }
+      body main section button {
+        background-color: #f2f2f2;
+        border: none;
+        border-radius: 25px;
+        width: 50%;
+        padding: 15px; }
+    body main #sedan {
+      background-color: #e38826;
+      border-top-right-radius: 5px;
+      border-top-left-radius: 5px; }
+      body main #sedan button {
+        color: #e38826; }
+    body main #suvs {
+      background-color: #006970; }
+      body main #suvs button {
+        color: #006970; }
+    body main #luxury {
+      background-color: #004241;
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px; }
+      body main #luxury button {
+        color: #004241; }
+
+@media screen and (min-width: 1440px) {
+  body {
+    height: 100vh; }
+    body main {
+      flex-direction: row;
+      margin: 0;
+      height: 70%;
+      width: 70%; }
+      body main section {
+        justify-content: space-between; }
+        body main section h1, body main section p {
+          margin-top: 45px; }
+        body main section img {
+          width: 65px; }
+        body main section h1 {
+          font-size: 45px; }
+      body main #sedan {
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 5px; }
+      body main #luxury {
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 5px; } }
